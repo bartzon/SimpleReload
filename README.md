@@ -27,3 +27,7 @@ The socket.io server runs on port ```RELOAD_SERVER_PORT```, the client javascrip
 
 To use SimpleReload on your mobile devices, connect them to the same WiFi as your web server,
 figure out your ip address using something like ```ifconfig``` and use that as ```RELOAD_HOST```.
+
+## Caveats
+- For now, each url only gets sent once, refreshing a page will not refresh other windows. This is to prevent going into an infinite loop.
+- This only works when the ```window.load``` event is fired. PJAX and friends will not trigger a refresh.
