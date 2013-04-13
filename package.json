@@ -1,0 +1,14 @@
+{
+  "name": "SimpleReload",
+  "version": "0.1.0",
+  "author": "Bart Zonneveld <bart@madebyhiro.com>",
+  "description": "Instruct multiple browsers to go to a specific url.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bartzon/SimpleReload"
+  },
+  "dependencies": {
+    "socket.io": "0.9.x"
+  },
+  "license": "MIT"
+}
