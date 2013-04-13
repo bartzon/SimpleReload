@@ -1,5 +1,5 @@
 {
-  "name": "SimpleReload",
+  "name": "simplereload",
   "version": "0.1.0",
   "author": "Bart Zonneveld <bart@madebyhiro.com>",
   "description": "Super simple reloading of multiple browser windows.",
